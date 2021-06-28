@@ -1,10 +1,11 @@
-# blackscholes
-Options Pricing Using Black Scholes Model For Indian Market
+# Options Pricing Using Black Scholes Model For Indian Market
 
-# How to Use The Function
+It shows how to use [NSEPython Library](https://github.com/aeron7/nsepython) and Black Scholes Model for Indian Market using NSE Prices.
+
+## How to Use The Function
 Option Premium Calculator Using Black Scholes Model:
 
-https://unofficed.com/black-scholes-model-options-calculator-google-sheet/
+[Read the detailed Documentation here ](https://unofficed.com/black-scholes-model-options-calculator-google-sheet/)
 
 ## Inputs in Black-Scholes Option Pricing Model Formula
 
@@ -33,6 +34,8 @@ For,
 
 
 ```
+from nsepython import *
+
 S0 = 34950.60
 X = 35000.00
 σ = 14.72
